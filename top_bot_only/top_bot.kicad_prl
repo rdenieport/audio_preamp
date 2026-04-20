@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer": 2,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.7900000214576721
     },
     "selection_filter": {
       "dimensions": true,
@@ -31,7 +31,6 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -45,11 +44,11 @@
       "pads",
       "zones",
       "drc_warnings",
-      "locked_item_shadows",
+      "drc_exclusions",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_fffffffe",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "vumeter.kicad_prl",
+    "filename": "top_bot.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
