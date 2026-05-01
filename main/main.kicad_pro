@@ -51,31 +51,8 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|93345000|39560000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|32748274-8b0e-47d4-9f9a-636556a37a4e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93345000|46800000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|ae9863e8-ca71-4655-aa32-5e899b24f328",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93345000|71945000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|4b1c0666-ac9c-4c64-a9e5-5f248441ca3e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93345000|79185000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|0fca4e76-317f-4400-9cb8-7434ac4e5e00",
-          ""
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -203,10 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.6
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,16 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 1.8,
-          "drill": 0.8
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -475,7 +440,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -486,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "top_bot.kicad_pro",
+    "filename": "main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -646,7 +610,7 @@
   },
   "sheets": [
     [
-      "6446546e-b6b1-411a-b55e-496fe70fa410",
+      "98ccfec1-0fcd-4de6-9990-1800a42a698c",
       "Root"
     ]
   ],

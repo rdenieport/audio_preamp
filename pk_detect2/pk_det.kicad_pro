@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|93345000|39560000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|32748274-8b0e-47d4-9f9a-636556a37a4e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93345000|46800000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|ae9863e8-ca71-4655-aa32-5e899b24f328",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93345000|71945000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|4b1c0666-ac9c-4c64-a9e5-5f248441ca3e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93345000|79185000|c366fd8d-ddf2-4285-9992-b187c9de4c4d|0fca4e76-317f-4400-9cb8-7434ac4e5e00",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -486,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "top_bot.kicad_pro",
+    "filename": "pk_det.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -595,14 +578,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
